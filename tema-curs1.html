@@ -1,0 +1,38 @@
+<html>
+  
+<body>
+    <script>
+    //prima cerință
+    var raza = 10;
+    const pi = 3.14;
+    var aria = pi*(raza**2);
+    console.log('Aria cercului cu raza de 10cm este: ' + aria);
+
+    //a doua cerință
+    var filme = ["The imitation game", "Zodiac", "A beautiful mind", "Twelve years a slave", "Wonder"];
+    for(var i=0; i<filme.length; i++){
+        console.log('Titlul filmului este: ' + filme[i],',iar indexul lui este: ' + i);
+    }
+
+    //a treia cerință
+    var vector = [5, 3, "1", 7, "9", 30, "45", 7]
+    var minim = vector[0];
+    var maxim = vector[0];
+    for(var i=1; i<vector.length; i++){
+        if(vector[i]<minim){
+            minim = vector[i];
+        }
+    }
+     console.log('Minimul din vector este: ' + minim);
+     for(var i=1; i<vector.length; i++){
+        if(vector[i]>maxim){
+            maxim = vector[i];
+        }
+    }
+     console.log('Maximul din vector este: ' + maxim);
+     </script>
+</body>
+</html>
+
+
+
